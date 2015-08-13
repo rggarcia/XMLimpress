@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+<!DOCTYPE impress SYSTEM "impress.dtd">
+-->
+
+<?xml-stylesheet href="impress.xsl" type="text/xsl"?>
+
+<impress numbered="yes">
+
+<!--example with small distance between slides-->
+<increment x="1000" y="1000" angle="45" length="4" />
+<!--
+'x' is the horizontal distance between slides
+'y' is the vertical distance between slides
+'angle' is the angle between two slides
+'lenth' is the loop length
+-->
+
+
+<title>
+Conceptos directorio activo
+</title>
+
+<style>
+.step {
+	width: 1000px;
+	font-size: x-large;
+}
+</style>
+
+<step>
+<h1>¿Qué es el Directorio Activo?</h1>
+</step>
+
+<step>
+es la pieza clave del sistema operativo <i>Windows Server</i>
+</step>
+
+<step>
+proporciona la capacidad de establecer un único inicio de sesión y un repositorio
+central de información para toda su infraestructura
+</step>
+
+<step>
+<h1>Terminología a conocer:</h1>
+</step>
+
+<step>
+<h1>Controlador de Dominio.</h1>
+Es un equipo <i>Windows Server </i>con Active Directory instalado que
+almacena, mantiene y gestiona la base de datos de usuarios y recursos de la red.
+</step>
+
+<step>
+<h1> Nombre de Dominio.</h1>
+Son las denominaciones asignadas a los equipos de la red. Por ejemplo
+MICENTRO.EDU
+</step>
+
+<step>
+<h1> Árbol de Dominio.</h1>
+Es el conjunto de dominios formado por el
+nombre de dominio raíz (MICENTRO.EDU) y el resto de dominios cuyos
+nombres constituyen un espacio contiguo con el nombre raíz (por ejemplo
+DPTO_LENGUA.MICENTRO.EDU).
+</step>
+
+<step>
+<h1> Bosque de Árboles de Dominios.</h1>
+Es el conjunto de árboles de
+dominio que no constituyen un espacio de nombres contiguo (por ejemplo
+MICENTRO.EDU y OTROCENTRO.EDU, que están conectados en la misma red).
+</step>
+
+<step>
+<h1>Esquema.</h1>
+<center>
+<img src="pictures/5DirectorioActivo/AD01.jpg" width="694"/> 
+</center>
+</step>
+
+<step>
+<center><h1>Credits.</h1></center>
+<h3>Adapted from:</h3>
+<a href="http://www.ite.educacion.es/formacion/materiales/85/cd/index.htm" target="_blank">
+Curso Aulas en red, aplicaciones y servicios</a>
+<h3>License:</h3>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">
+Creative Commons Attribution-ShareAlike 3.0  (CC BY-SA 3.0)</a>
+</step>
+
+</impress>
+
