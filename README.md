@@ -1,7 +1,8 @@
 XMLimpress.js
 =============
 
-Generate impress.js presentations with predesigned transitions from a XML file
+Generates [impress.js](https://github.com/impress/impress.js/wiki)
+presentations with predesigned transitions from an XML file
 
 Usage
 -----
