@@ -4,6 +4,12 @@ XMLimpress.js
 Generates [impress.js](https://github.com/impress/impress.js/wiki)
 presentations with predesigned transitions from an XML file
 
+You can see two online demos here:
+
+- First demo: in [HTML](http://vmlinuz.16mb.com/wps/?smd_process_download=1&download_id=130) or in [XML](http://vmlinuz.16mb.com/wps/?smd_process_download=1&download_id=155).
+
+- Second demo: in [HTML](http://vmlinuz.16mb.com/wps/?smd_process_download=1&download_id=156) or in [XML](http://vmlinuz.16mb.com/wps/?smd_process_download=1&download_id=157).
+
 Usage
 -----
 
